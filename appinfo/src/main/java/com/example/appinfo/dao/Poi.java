@@ -6,4 +6,5 @@ public interface Poi {
 
     public int it();
     int iss();
+    int ss();
 }
