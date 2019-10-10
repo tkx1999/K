@@ -1,103 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="655909d6-6f13-49f3-85bf-5bd480059e9a" name="Default Changelist" comment="第一次提交">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appinfo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appinfo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appinfo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appinfo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appinfo/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appinfo/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appinfo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appinfo/src/main/java/com/example/appinfo/AppinfoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appinfo/src/main/java/com/example/appinfo/dao/Poi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appinfo/src/main/java/com/example/appinfo/pojo/MailProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appinfo/src/main/java/com/example/appinfo/service/MailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appinfo/src/main/java/com/example/appinfo/service/MailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appinfo/src/main/java/com/example/appinfo/service/MailServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appinfo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appinfo/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appinfo/src/test/java/com/example/appinfo/AppinfoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/debug/log-debug-2019-05-18__0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/debug/log-debug-2019-09-10__0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/debug/log-debug-2019-09-11__0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/debug/log-debug-2019-10-03__0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/error/log-error-2019-05-18__0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/error/log-error-2019-09-10__0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/error/log-error-2019-09-11__0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/error/log-error-2019-10-03__0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/info/log-info-2019-05-18__0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/info/log-info-2019-09-10__0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/info/log-info-2019-09-11__0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/info/log-info-2019-10-03__0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/warn/log-warn-2019-05-18__0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/warn/log-warn-2019-09-10__0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/warn/log-warn-2019-09-11__0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log/warn/log-warn-2019-10-03__0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it/www/HrManageSpringBootApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it/www/controller/DefaultView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it/www/controller/HrManageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it/www/dao/DeptMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it/www/dao/EmpMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it/www/pojo/Dept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it/www/pojo/Emp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it/www/service/HrManageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it/www/service/imple/HrManageServiceImple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it/www/service/poi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it/www/util/JsonString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it/www/util/Pager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/it/www/util/QueryTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/DeptMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/EmpMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/add.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/adddept.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery-1.12.4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/updateemp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/adddept.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/error/403.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/error/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/error/500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/updateemp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/it/www/HrManageSpringBootApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/it/www/controller/DefaultView.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/it/www/controller/HrManageController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/it/www/dao/DeptMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/it/www/dao/EmpMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/it/www/pojo/Dept.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/it/www/pojo/Emp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/it/www/service/HrManageService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/it/www/service/imple/HrManageServiceImple.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/it/www/util/JsonString.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/it/www/util/Pager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/it/www/util/QueryTool.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/log/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/DeptMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapper/EmpMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/add.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/adddept.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/jquery-1.12.4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/updateemp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/adddept.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/error/403.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/error/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/error/500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/updateemp.html" afterDir="false" />
+    <list default="true" id="655909d6-6f13-49f3-85bf-5bd480059e9a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appinfo/src/main/java/com/example/appinfo/dao/Poi.java" beforeDir="false" afterPath="$PROJECT_DIR$/appinfo/src/main/java/com/example/appinfo/dao/Poi.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -122,11 +28,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appinfo/src/main/java/com/example/appinfo/service/MailServices.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/appinfo/src/main/java/com/example/appinfo/dao/Poi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -200,6 +115,7 @@
         <option value="$PROJECT_DIR$/appinfo/src/test/java/com/example/appinfo/AppinfoApplicationTests.java" />
         <option value="$PROJECT_DIR$/appinfo/src/main/java/com/example/appinfo/service/MailService.java" />
         <option value="$PROJECT_DIR$/appinfo/pom.xml" />
+        <option value="$PROJECT_DIR$/appinfo/src/main/java/com/example/appinfo/dao/Poi.java" />
       </list>
     </option>
   </component>
@@ -288,6 +204,26 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="appinfo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hrManage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hrManage" type="462c0819:PsiDirectoryNode" />
+              <item name="appinfo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="appinfo" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hrManage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hrManage" type="462c0819:PsiDirectoryNode" />
+              <item name="appinfo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="appinfo" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hrManage" type="b2602c69:ProjectViewProjectNode" />
@@ -431,8 +367,16 @@
       <workItem from="1570102213297" duration="9620000" />
       <workItem from="1570433849012" duration="1146000" />
       <workItem from="1570634497766" duration="1504000" />
-      <workItem from="1570674298527" duration="262000" />
+      <workItem from="1570674298527" duration="526000" />
     </task>
+    <task id="LOCAL-00001" summary="第一次提交">
+      <created>1570674679034</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1570674679034</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -468,13 +412,22 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71952000" />
+    <option name="totallyTimeSpent" value="72216000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21104388" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21104388" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -488,13 +441,13 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.19476268" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="TODO" order="6" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.30627707" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="12" visible="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.54664487" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.3289689" />
@@ -855,13 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appinfo/src/main/java/com/example/appinfo/dao/Poi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/it/www/HrManageSpringBootApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1000,7 +946,14 @@
     <entry file="file://$PROJECT_DIR$/appinfo/src/main/java/com/example/appinfo/service/MailServices.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appinfo/src/main/java/com/example/appinfo/dao/Poi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
     </entry>
