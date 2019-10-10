@@ -1,0 +1,38 @@
+spring:
+  #配置数据源
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/hrmanage?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 1234
+  #禁止缓存
+  thymeleaf:
+    cache: false
+  devtools:
+    #以下资源修改时不会实时重新加载
+    restart:
+      exclude: static/**,public/**,templates/**
+  jackson:
+    #时区转换
+    #time-zone: GMT+8
+    #HH为24小时制，hh为12 小时制，时间转json
+    date-format: yyyy-MM-dd
+
+  #页面数据到controller
+  mvc:
+    date-format: yyyy-MM-dd
+
+
+mybatis:
+  #pojo包别名
+  type-aliases-package: com.it.www.pojo
+  #加载mapper资源
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    #懒加载
+    lazy-loading-enabled: false
+
+logging:
+  #日志
+  config: classpath:log/logback-spring.xml
+  path: /LogBack

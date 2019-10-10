@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+/*首页样式*/
+
+h1{
+    font-family: "新宋体";
+}
+table{
+    margin: auto;
+    font-family: "微软雅黑";
+    font-weight: 500;
+    text-align: center;
+}
+table tr td{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#tabletitle td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(204,204,254);
+}
+.tablecontext{
+    font-size: 15px;
+    font-family: "宋体";
+}
+
+.tablecontext:nth-child(odd){
+    background-color: rgb(137,208,254);
+}

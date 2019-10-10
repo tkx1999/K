@@ -1,0 +1,204 @@
+2019-09-11 08:35:38.891 [http-nio-8080-exec-7] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==>  Preparing: SELECT e.*,d.deptname deptname FROM emp e,dept d where e.deptid=d.deptno limit 0,? 
+2019-09-11 08:35:38.891 [http-nio-8080-exec-4] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==>  Preparing: SELECT d.* FROM dept d 
+2019-09-11 08:35:38.908 [http-nio-8080-exec-4] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==> Parameters: 
+2019-09-11 08:35:38.908 [http-nio-8080-exec-7] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==> Parameters: 3(Integer)
+2019-09-11 08:35:38.942 [http-nio-8080-exec-7] DEBUG com.it.www.dao.EmpMapper.getEmpList - <==      Total: 3
+2019-09-11 08:35:38.942 [http-nio-8080-exec-4] DEBUG com.it.www.dao.DeptMapper.getDeptList - <==      Total: 3
+2019-09-11 08:35:38.944 [http-nio-8080-exec-7] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==>  Preparing: SELECT count(1) FROM emp e 
+2019-09-11 08:35:38.945 [http-nio-8080-exec-7] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==> Parameters: 
+2019-09-11 08:35:38.970 [http-nio-8080-exec-7] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - <==      Total: 1
+2019-09-11 08:42:55.479 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==>  Preparing: SELECT e.*,d.deptname deptname FROM emp e,dept d where e.deptid=d.deptno limit 0,? 
+2019-09-11 08:42:55.479 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==>  Preparing: SELECT d.* FROM dept d 
+2019-09-11 08:42:55.495 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==> Parameters: 
+2019-09-11 08:42:55.495 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==> Parameters: 3(Integer)
+2019-09-11 08:42:55.506 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - <==      Total: 3
+2019-09-11 08:42:55.506 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpList - <==      Total: 3
+2019-09-11 08:42:55.508 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==>  Preparing: SELECT count(1) FROM emp e 
+2019-09-11 08:42:55.508 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==> Parameters: 
+2019-09-11 08:42:55.511 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - <==      Total: 1
+2019-09-11 09:16:37.437 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==>  Preparing: SELECT e.*,d.deptname deptname FROM emp e,dept d where e.deptid=d.deptno limit 0,? 
+2019-09-11 09:16:37.437 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==>  Preparing: SELECT d.* FROM dept d 
+2019-09-11 09:16:37.453 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==> Parameters: 
+2019-09-11 09:16:37.453 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==> Parameters: 3(Integer)
+2019-09-11 09:16:37.463 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - <==      Total: 3
+2019-09-11 09:16:37.463 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpList - <==      Total: 3
+2019-09-11 09:16:37.465 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==>  Preparing: SELECT count(1) FROM emp e 
+2019-09-11 09:16:37.465 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==> Parameters: 
+2019-09-11 09:16:37.468 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - <==      Total: 1
+2019-09-11 11:04:32.442 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==>  Preparing: SELECT d.* FROM dept d 
+2019-09-11 11:04:32.462 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==> Parameters: 
+2019-09-11 11:04:32.477 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - <==      Total: 3
+2019-09-11 11:05:02.892 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==>  Preparing: SELECT d.* FROM dept d 
+2019-09-11 11:05:02.914 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==> Parameters: 
+2019-09-11 11:05:02.962 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - <==      Total: 3
+2019-09-11 11:05:40.562 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==>  Preparing: SELECT d.* FROM dept d 
+2019-09-11 11:05:40.587 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==> Parameters: 
+2019-09-11 11:05:40.599 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - <==      Total: 3
+2019-09-11 11:57:46.341 [http-nio-8080-exec-9] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==>  Preparing: SELECT d.* FROM dept d 
+2019-09-11 11:57:46.372 [http-nio-8080-exec-9] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==> Parameters: 
+2019-09-11 11:57:46.390 [http-nio-8080-exec-2] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==>  Preparing: SELECT e.*,d.deptname deptname FROM emp e,dept d where e.deptid=d.deptno limit 0,? 
+2019-09-11 11:57:46.391 [http-nio-8080-exec-2] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==> Parameters: 3(Integer)
+2019-09-11 11:57:46.401 [http-nio-8080-exec-9] DEBUG com.it.www.dao.DeptMapper.getDeptList - <==      Total: 3
+2019-09-11 11:57:46.406 [http-nio-8080-exec-2] DEBUG com.it.www.dao.EmpMapper.getEmpList - <==      Total: 3
+2019-09-11 11:57:46.407 [http-nio-8080-exec-2] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==>  Preparing: SELECT count(1) FROM emp e 
+2019-09-11 11:57:46.408 [http-nio-8080-exec-2] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==> Parameters: 
+2019-09-11 11:57:46.412 [http-nio-8080-exec-2] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - <==      Total: 1
+2019-09-11 12:04:34.572 [http-nio-8080-exec-8] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==>  Preparing: SELECT d.* FROM dept d 
+2019-09-11 12:04:34.572 [http-nio-8080-exec-1] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==>  Preparing: SELECT e.*,d.deptname deptname FROM emp e,dept d where e.deptid=d.deptno limit 0,? 
+2019-09-11 12:04:34.573 [http-nio-8080-exec-8] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==> Parameters: 
+2019-09-11 12:04:34.573 [http-nio-8080-exec-1] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==> Parameters: 3(Integer)
+2019-09-11 12:04:34.576 [http-nio-8080-exec-8] DEBUG com.it.www.dao.DeptMapper.getDeptList - <==      Total: 3
+2019-09-11 12:04:34.580 [http-nio-8080-exec-1] DEBUG com.it.www.dao.EmpMapper.getEmpList - <==      Total: 3
+2019-09-11 12:04:34.581 [http-nio-8080-exec-1] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==>  Preparing: SELECT count(1) FROM emp e 
+2019-09-11 12:04:34.582 [http-nio-8080-exec-1] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==> Parameters: 
+2019-09-11 12:04:34.611 [http-nio-8080-exec-1] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - <==      Total: 1
+2019-09-11 12:13:25.853 [http-nio-8080-exec-5] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==>  Preparing: SELECT e.*,d.deptname deptname FROM emp e,dept d where e.deptid=d.deptno limit 0,? 
+2019-09-11 12:13:25.853 [http-nio-8080-exec-9] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==>  Preparing: SELECT d.* FROM dept d 
+2019-09-11 12:13:25.871 [http-nio-8080-exec-9] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==> Parameters: 
+2019-09-11 12:13:25.871 [http-nio-8080-exec-5] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==> Parameters: 3(Integer)
+2019-09-11 12:13:25.880 [http-nio-8080-exec-9] DEBUG com.it.www.dao.DeptMapper.getDeptList - <==      Total: 3
+2019-09-11 12:13:25.900 [http-nio-8080-exec-5] DEBUG com.it.www.dao.EmpMapper.getEmpList - <==      Total: 3
+2019-09-11 12:13:25.901 [http-nio-8080-exec-5] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==>  Preparing: SELECT count(1) FROM emp e 
+2019-09-11 12:13:25.901 [http-nio-8080-exec-5] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==> Parameters: 
+2019-09-11 12:13:25.904 [http-nio-8080-exec-5] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - <==      Total: 1
+2019-09-11 12:14:01.722 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==>  Preparing: SELECT d.* FROM dept d 
+2019-09-11 12:14:01.726 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==>  Preparing: SELECT e.*,d.deptname deptname FROM emp e,dept d where e.deptid=d.deptno limit 0,? 
+2019-09-11 12:14:01.740 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==> Parameters: 
+2019-09-11 12:14:01.741 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==> Parameters: 3(Integer)
+2019-09-11 12:14:01.753 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpList - <==      Total: 3
+2019-09-11 12:14:01.753 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - <==      Total: 3
+2019-09-11 12:14:01.755 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==>  Preparing: SELECT count(1) FROM emp e 
+2019-09-11 12:14:01.756 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==> Parameters: 
+2019-09-11 12:14:01.758 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - <==      Total: 1
+2019-09-11 12:16:37.890 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==>  Preparing: SELECT d.* FROM dept d 
+2019-09-11 12:16:37.890 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==>  Preparing: SELECT e.*,d.deptname deptname FROM emp e,dept d where e.deptid=d.deptno limit 0,? 
+2019-09-11 12:16:37.906 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==> Parameters: 
+2019-09-11 12:16:37.907 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==> Parameters: 3(Integer)
+2019-09-11 12:16:37.920 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - <==      Total: 3
+2019-09-11 12:16:37.920 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpList - <==      Total: 3
+2019-09-11 12:16:37.923 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==>  Preparing: SELECT count(1) FROM emp e 
+2019-09-11 12:16:37.923 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==> Parameters: 
+2019-09-11 12:16:37.925 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - <==      Total: 1
+2019-09-11 12:16:44.382 [http-nio-8080-exec-8] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==>  Preparing: SELECT e.*,d.deptname deptname FROM emp e,dept d where e.deptid=d.deptno and e.empbirthday >= ? limit 0,? 
+2019-09-11 12:16:44.382 [http-nio-8080-exec-8] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==> Parameters: 2019-09-19 00:00:00.0(Timestamp), 3(Integer)
+2019-09-11 12:16:44.382 [http-nio-8080-exec-8] DEBUG com.it.www.dao.EmpMapper.getEmpList - <==      Total: 0
+2019-09-11 12:16:44.382 [http-nio-8080-exec-8] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==>  Preparing: SELECT count(1) FROM emp e where e.empbirthday = ? 
+2019-09-11 12:16:44.382 [http-nio-8080-exec-8] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==> Parameters: 2019-09-19 00:00:00.0(Timestamp)
+2019-09-11 12:16:44.400 [http-nio-8080-exec-8] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - <==      Total: 1
+2019-09-11 12:17:04.638 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==>  Preparing: SELECT e.*,d.deptname deptname FROM emp e,dept d where e.deptid=d.deptno limit 0,? 
+2019-09-11 12:17:04.638 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==>  Preparing: SELECT d.* FROM dept d 
+2019-09-11 12:17:04.655 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==> Parameters: 
+2019-09-11 12:17:04.655 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==> Parameters: 3(Integer)
+2019-09-11 12:17:04.667 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - <==      Total: 3
+2019-09-11 12:17:04.667 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpList - <==      Total: 3
+2019-09-11 12:17:04.669 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==>  Preparing: SELECT count(1) FROM emp e 
+2019-09-11 12:17:04.669 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==> Parameters: 
+2019-09-11 12:17:04.671 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - <==      Total: 1
+2019-09-11 12:18:12.210 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==>  Preparing: SELECT e.*,d.deptname deptname FROM emp e,dept d where e.deptid=d.deptno limit 0,? 
+2019-09-11 12:18:12.210 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==>  Preparing: SELECT d.* FROM dept d 
+2019-09-11 12:18:12.224 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==> Parameters: 
+2019-09-11 12:18:12.224 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==> Parameters: 3(Integer)
+2019-09-11 12:18:12.235 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - <==      Total: 3
+2019-09-11 12:18:12.235 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpList - <==      Total: 3
+2019-09-11 12:18:12.237 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==>  Preparing: SELECT count(1) FROM emp e 
+2019-09-11 12:18:12.238 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==> Parameters: 
+2019-09-11 12:18:12.242 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - <==      Total: 1
+2019-09-11 12:18:36.091 [http-nio-8080-exec-8] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==>  Preparing: SELECT e.*,d.deptname deptname FROM emp e,dept d where e.deptid=d.deptno and e.empbirthday >= ? limit 0,? 
+2019-09-11 12:18:36.093 [http-nio-8080-exec-8] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==> Parameters: 2019-01-03 00:00:00.0(Timestamp), 3(Integer)
+2019-09-11 12:18:36.097 [http-nio-8080-exec-8] DEBUG com.it.www.dao.EmpMapper.getEmpList - <==      Total: 3
+2019-09-11 12:18:36.099 [http-nio-8080-exec-8] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==>  Preparing: SELECT count(1) FROM emp e where e.empbirthday = ? 
+2019-09-11 12:18:36.100 [http-nio-8080-exec-8] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==> Parameters: 2019-01-03 00:00:00.0(Timestamp)
+2019-09-11 12:18:36.103 [http-nio-8080-exec-8] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - <==      Total: 1
+2019-09-11 12:21:05.980 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==>  Preparing: SELECT d.* FROM dept d 
+2019-09-11 12:21:05.980 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==>  Preparing: SELECT e.*,d.deptname deptname FROM emp e,dept d where e.deptid=d.deptno limit 0,? 
+2019-09-11 12:21:05.995 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==> Parameters: 
+2019-09-11 12:21:05.995 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==> Parameters: 3(Integer)
+2019-09-11 12:21:06.007 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpList - <==      Total: 3
+2019-09-11 12:21:06.007 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - <==      Total: 3
+2019-09-11 12:21:06.010 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==>  Preparing: SELECT count(1) FROM emp e 
+2019-09-11 12:21:06.010 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==> Parameters: 
+2019-09-11 12:21:06.012 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - <==      Total: 1
+2019-09-11 12:26:51.184 [http-nio-8080-exec-1] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==>  Preparing: SELECT e.*,d.deptname deptname FROM emp e,dept d where e.deptid=d.deptno and e.empname like CONCAT('%',?,'%') and e.empbirthday <= ? limit 0,? 
+2019-09-11 12:26:51.184 [http-nio-8080-exec-1] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==> Parameters: (String), 2019-01-10 00:00:00.0(Timestamp), 3(Integer)
+2019-09-11 12:26:51.230 [http-nio-8080-exec-1] DEBUG com.it.www.dao.EmpMapper.getEmpList - <==      Total: 2
+2019-09-11 12:26:51.230 [http-nio-8080-exec-1] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==>  Preparing: SELECT count(1) FROM emp e where e.empname like CONCAT('%',?,'%') and e.empbirthday <= ? 
+2019-09-11 12:26:51.230 [http-nio-8080-exec-1] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==> Parameters: (String), 2019-01-10 00:00:00.0(Timestamp)
+2019-09-11 12:26:51.230 [http-nio-8080-exec-1] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - <==      Total: 1
+2019-09-11 12:33:07.310 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==>  Preparing: SELECT d.* FROM dept d 
+2019-09-11 12:33:07.322 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==> Parameters: 
+2019-09-11 12:33:07.333 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - <==      Total: 3
+2019-09-11 12:33:30.593 [http-nio-8080-exec-1] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==>  Preparing: SELECT d.* FROM dept d 
+2019-09-11 12:33:30.593 [http-nio-8080-exec-1] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==> Parameters: 
+2019-09-11 12:33:30.596 [http-nio-8080-exec-1] DEBUG com.it.www.dao.DeptMapper.getDeptList - <==      Total: 3
+2019-09-11 12:34:18.470 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==>  Preparing: SELECT e.*,d.deptname deptname FROM emp e,dept d where e.deptid=d.deptno and e.empname like CONCAT('%',?,'%') limit 0,? 
+2019-09-11 12:34:18.470 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==>  Preparing: SELECT d.* FROM dept d 
+2019-09-11 12:34:18.485 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==> Parameters: 
+2019-09-11 12:34:18.485 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==> Parameters: (String), 3(Integer)
+2019-09-11 12:34:18.496 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpList - <==      Total: 3
+2019-09-11 12:34:18.496 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - <==      Total: 3
+2019-09-11 12:34:18.498 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==>  Preparing: SELECT count(1) FROM emp e where e.empname like CONCAT('%',?,'%') 
+2019-09-11 12:34:18.499 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==> Parameters: (String)
+2019-09-11 12:34:18.502 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - <==      Total: 1
+2019-09-11 12:34:23.964 [http-nio-8080-exec-8] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==>  Preparing: SELECT e.*,d.deptname deptname FROM emp e,dept d where e.deptid=d.deptno and e.empname like CONCAT('%',?,'%') limit 0,? 
+2019-09-11 12:34:23.964 [http-nio-8080-exec-8] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==> Parameters: (String), 3(Integer)
+2019-09-11 12:34:23.964 [http-nio-8080-exec-8] DEBUG com.it.www.dao.EmpMapper.getEmpList - <==      Total: 3
+2019-09-11 12:34:23.964 [http-nio-8080-exec-8] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==>  Preparing: SELECT count(1) FROM emp e where e.empname like CONCAT('%',?,'%') 
+2019-09-11 12:34:23.964 [http-nio-8080-exec-8] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==> Parameters: (String)
+2019-09-11 12:34:23.964 [http-nio-8080-exec-8] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - <==      Total: 1
+2019-09-11 12:34:56.885 [http-nio-8080-exec-9] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==>  Preparing: SELECT e.*,d.deptname deptname FROM emp e,dept d where e.deptid=d.deptno and e.empname like CONCAT('%',?,'%') limit 0,? 
+2019-09-11 12:34:56.886 [http-nio-8080-exec-9] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==> Parameters: (String), 3(Integer)
+2019-09-11 12:34:56.889 [http-nio-8080-exec-9] DEBUG com.it.www.dao.EmpMapper.getEmpList - <==      Total: 3
+2019-09-11 12:34:56.892 [http-nio-8080-exec-9] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==>  Preparing: SELECT count(1) FROM emp e where e.empname like CONCAT('%',?,'%') 
+2019-09-11 12:34:56.893 [http-nio-8080-exec-9] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==> Parameters: (String)
+2019-09-11 12:34:56.895 [http-nio-8080-exec-9] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - <==      Total: 1
+2019-09-11 12:35:27.638 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==>  Preparing: SELECT d.* FROM dept d 
+2019-09-11 12:35:27.638 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==>  Preparing: SELECT e.*,d.deptname deptname FROM emp e,dept d where e.deptid=d.deptno and e.empname like CONCAT('%',?,'%') limit 0,? 
+2019-09-11 12:35:27.653 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==> Parameters: 
+2019-09-11 12:35:27.654 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==> Parameters: (String), 3(Integer)
+2019-09-11 12:35:27.663 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - <==      Total: 3
+2019-09-11 12:35:27.663 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpList - <==      Total: 3
+2019-09-11 12:35:27.666 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==>  Preparing: SELECT count(1) FROM emp e where e.empname like CONCAT('%',?,'%') 
+2019-09-11 12:35:27.666 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==> Parameters: (String)
+2019-09-11 12:35:27.668 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - <==      Total: 1
+2019-09-11 12:35:31.821 [http-nio-8080-exec-8] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==>  Preparing: SELECT e.*,d.deptname deptname FROM emp e,dept d where e.deptid=d.deptno and e.empname like CONCAT('%',?,'%') limit 0,? 
+2019-09-11 12:35:31.823 [http-nio-8080-exec-8] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==> Parameters: (String), 3(Integer)
+2019-09-11 12:35:31.826 [http-nio-8080-exec-8] DEBUG com.it.www.dao.EmpMapper.getEmpList - <==      Total: 3
+2019-09-11 12:35:31.828 [http-nio-8080-exec-8] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==>  Preparing: SELECT count(1) FROM emp e where e.empname like CONCAT('%',?,'%') 
+2019-09-11 12:35:31.829 [http-nio-8080-exec-8] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==> Parameters: (String)
+2019-09-11 12:35:31.831 [http-nio-8080-exec-8] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - <==      Total: 1
+2019-09-11 12:36:37.296 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==>  Preparing: SELECT d.* FROM dept d 
+2019-09-11 12:36:37.313 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==> Parameters: 
+2019-09-11 12:36:37.328 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - <==      Total: 3
+2019-09-11 12:40:05.142 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==>  Preparing: SELECT d.* FROM dept d 
+2019-09-11 12:40:05.156 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==> Parameters: 
+2019-09-11 12:40:05.170 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - <==      Total: 3
+2019-09-11 12:41:27.194 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==>  Preparing: SELECT d.* FROM dept d 
+2019-09-11 12:41:27.209 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==> Parameters: 
+2019-09-11 12:41:27.224 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - <==      Total: 3
+2019-09-11 12:41:57.931 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==>  Preparing: SELECT d.* FROM dept d 
+2019-09-11 12:41:57.931 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==> Parameters: 
+2019-09-11 12:41:57.934 [http-nio-8080-exec-5] DEBUG com.it.www.dao.DeptMapper.getDeptList - <==      Total: 3
+2019-09-11 12:43:09.702 [http-nio-8080-exec-8] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==>  Preparing: SELECT d.* FROM dept d 
+2019-09-11 12:43:09.702 [http-nio-8080-exec-8] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==> Parameters: 
+2019-09-11 12:43:09.706 [http-nio-8080-exec-8] DEBUG com.it.www.dao.DeptMapper.getDeptList - <==      Total: 3
+2019-09-11 12:43:47.923 [http-nio-8080-exec-3] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==>  Preparing: SELECT d.* FROM dept d 
+2019-09-11 12:43:47.923 [http-nio-8080-exec-3] DEBUG com.it.www.dao.DeptMapper.getDeptList - ==> Parameters: 
+2019-09-11 12:43:47.924 [http-nio-8080-exec-3] DEBUG com.it.www.dao.DeptMapper.getDeptList - <==      Total: 3
+2019-09-11 12:43:49.277 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==>  Preparing: SELECT e.*,d.deptname deptname FROM emp e,dept d where e.deptid=d.deptno and e.empname like CONCAT('%',?,'%') limit 0,? 
+2019-09-11 12:43:49.281 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==> Parameters: (String), 3(Integer)
+2019-09-11 12:43:49.283 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpList - <==      Total: 3
+2019-09-11 12:43:49.284 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==>  Preparing: SELECT count(1) FROM emp e where e.empname like CONCAT('%',?,'%') 
+2019-09-11 12:43:49.284 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==> Parameters: (String)
+2019-09-11 12:43:49.285 [http-nio-8080-exec-6] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - <==      Total: 1
+2019-09-11 12:43:52.488 [http-nio-8080-exec-8] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==>  Preparing: SELECT e.*,d.deptname deptname FROM emp e,dept d where e.deptid=d.deptno and e.empname like CONCAT('%',?,'%') limit 3,? 
+2019-09-11 12:43:52.490 [http-nio-8080-exec-8] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==> Parameters: (String), 3(Integer)
+2019-09-11 12:43:52.493 [http-nio-8080-exec-8] DEBUG com.it.www.dao.EmpMapper.getEmpList - <==      Total: 3
+2019-09-11 12:43:52.495 [http-nio-8080-exec-8] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==>  Preparing: SELECT count(1) FROM emp e where e.empname like CONCAT('%',?,'%') 
+2019-09-11 12:43:52.495 [http-nio-8080-exec-8] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==> Parameters: (String)
+2019-09-11 12:43:52.497 [http-nio-8080-exec-8] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - <==      Total: 1
+2019-09-11 12:43:55.013 [http-nio-8080-exec-9] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==>  Preparing: SELECT e.*,d.deptname deptname FROM emp e,dept d where e.deptid=d.deptno and e.empname like CONCAT('%',?,'%') limit 6,? 
+2019-09-11 12:43:55.014 [http-nio-8080-exec-9] DEBUG com.it.www.dao.EmpMapper.getEmpList - ==> Parameters: (String), 3(Integer)
+2019-09-11 12:43:55.017 [http-nio-8080-exec-9] DEBUG com.it.www.dao.EmpMapper.getEmpList - <==      Total: 2
+2019-09-11 12:43:55.020 [http-nio-8080-exec-9] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==>  Preparing: SELECT count(1) FROM emp e where e.empname like CONCAT('%',?,'%') 
+2019-09-11 12:43:55.020 [http-nio-8080-exec-9] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - ==> Parameters: (String)
+2019-09-11 12:43:55.023 [http-nio-8080-exec-9] DEBUG com.it.www.dao.EmpMapper.getEmpListCount - <==      Total: 1

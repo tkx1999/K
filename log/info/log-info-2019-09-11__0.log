@@ -1,0 +1,535 @@
+2019-09-11 08:35:24.253 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Starting HrManageSpringBootApplication on ZWJ37B71FPB2GEN with PID 5456 (C:\Users\Administrator\Desktop\hrManage\target\classes started by Administrator in C:\Users\Administrator\Desktop\hrManage)
+2019-09-11 08:35:24.256 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - No active profile set, falling back to default profiles: default
+2019-09-11 08:35:24.295 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-11 08:35:24.296 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-11 08:35:25.473 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-09-11 08:35:25.487 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-11 08:35:25.496 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-11 08:35:25.496 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-11 08:35:25.591 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-11 08:35:25.591 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1295 ms
+2019-09-11 08:35:25.995 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-11 08:35:26.045 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-09-11 08:35:26.192 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-09-11 08:35:26.231 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-09-11 08:35:26.258 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-11 08:35:26.260 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Started HrManageSpringBootApplication in 2.628 seconds (JVM running for 3.667)
+2019-09-11 08:35:38.197 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-11 08:35:38.198 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-11 08:35:38.209 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2019-09-11 08:35:38.658 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-09-11 08:35:38.880 [http-nio-8080-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-09-11 08:42:48.076 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Starting HrManageSpringBootApplication on ZWJ37B71FPB2GEN with PID 6076 (C:\Users\Administrator\Desktop\hrManage\target\classes started by Administrator in C:\Users\Administrator\Desktop\hrManage)
+2019-09-11 08:42:48.092 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - No active profile set, falling back to default profiles: default
+2019-09-11 08:42:48.201 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-11 08:42:48.201 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-11 08:42:49.153 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-09-11 08:42:49.168 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-11 08:42:49.168 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-11 08:42:49.168 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-11 08:42:49.262 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-11 08:42:49.262 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1061 ms
+2019-09-11 08:42:49.683 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-11 08:42:49.730 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-09-11 08:42:49.855 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-09-11 08:42:49.870 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-09-11 08:42:49.902 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-11 08:42:49.902 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Started HrManageSpringBootApplication in 2.325 seconds (JVM running for 2.937)
+2019-09-11 08:42:55.006 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-11 08:42:55.006 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-11 08:42:55.011 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-09-11 08:42:55.276 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-09-11 08:42:55.472 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-09-11 09:16:31.596 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Starting HrManageSpringBootApplication on ZWJ37B71FPB2GEN with PID 4608 (C:\Users\Administrator\Desktop\hrManage\target\classes started by Administrator in C:\Users\Administrator\Desktop\hrManage)
+2019-09-11 09:16:31.596 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - No active profile set, falling back to default profiles: default
+2019-09-11 09:16:31.784 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-11 09:16:31.784 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-11 09:16:32.938 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-09-11 09:16:32.938 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-11 09:16:32.954 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-11 09:16:32.954 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-11 09:16:33.016 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-11 09:16:33.016 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1232 ms
+2019-09-11 09:16:33.406 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-11 09:16:33.453 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-09-11 09:16:33.593 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-09-11 09:16:33.609 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-09-11 09:16:33.624 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-11 09:16:33.640 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Started HrManageSpringBootApplication in 2.574 seconds (JVM running for 3.165)
+2019-09-11 09:16:36.950 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-11 09:16:36.951 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-11 09:16:36.956 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-09-11 09:16:37.240 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-09-11 09:16:37.429 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-09-11 11:04:23.569 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Starting HrManageSpringBootApplication on ZWJ37B71FPB2GEN with PID 6288 (C:\Users\Administrator\Desktop\hrManage\target\classes started by Administrator in C:\Users\Administrator\Desktop\hrManage)
+2019-09-11 11:04:23.572 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - No active profile set, falling back to default profiles: default
+2019-09-11 11:04:23.615 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-11 11:04:23.615 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-11 11:04:24.961 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-09-11 11:04:24.971 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-11 11:04:24.981 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-11 11:04:24.981 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-11 11:04:25.070 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-11 11:04:25.070 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1455 ms
+2019-09-11 11:04:25.474 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-11 11:04:25.511 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-09-11 11:04:25.673 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-09-11 11:04:25.693 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-09-11 11:04:25.717 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-11 11:04:25.717 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Started HrManageSpringBootApplication in 2.8 seconds (JVM running for 3.387)
+2019-09-11 11:04:31.939 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-11 11:04:31.939 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-11 11:04:31.944 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2019-09-11 11:04:32.231 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-09-11 11:04:32.435 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-09-11 11:04:57.066 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Starting HrManageSpringBootApplication on ZWJ37B71FPB2GEN with PID 4392 (C:\Users\Administrator\Desktop\hrManage\target\classes started by Administrator in C:\Users\Administrator\Desktop\hrManage)
+2019-09-11 11:04:57.068 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - No active profile set, falling back to default profiles: default
+2019-09-11 11:04:57.115 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-11 11:04:57.115 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-11 11:04:58.332 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-09-11 11:04:58.343 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-11 11:04:58.363 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-11 11:04:58.363 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-11 11:04:58.440 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-11 11:04:58.440 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1325 ms
+2019-09-11 11:04:58.830 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-11 11:04:58.872 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-09-11 11:04:59.026 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-09-11 11:04:59.046 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-09-11 11:04:59.066 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-11 11:04:59.076 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Started HrManageSpringBootApplication in 2.713 seconds (JVM running for 3.286)
+2019-09-11 11:05:02.370 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-11 11:05:02.370 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-11 11:05:02.375 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-09-11 11:05:02.655 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-09-11 11:05:02.879 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-09-11 11:05:35.025 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Starting HrManageSpringBootApplication on ZWJ37B71FPB2GEN with PID 6976 (C:\Users\Administrator\Desktop\hrManage\target\classes started by Administrator in C:\Users\Administrator\Desktop\hrManage)
+2019-09-11 11:05:35.036 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - No active profile set, falling back to default profiles: default
+2019-09-11 11:05:35.209 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-11 11:05:35.209 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-11 11:05:36.439 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-09-11 11:05:36.449 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-11 11:05:36.469 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-11 11:05:36.469 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-11 11:05:36.539 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-11 11:05:36.539 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1329 ms
+2019-09-11 11:05:36.963 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-11 11:05:37.003 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-09-11 11:05:37.153 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-09-11 11:05:37.175 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-09-11 11:05:37.193 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-11 11:05:37.194 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Started HrManageSpringBootApplication in 2.652 seconds (JVM running for 3.284)
+2019-09-11 11:05:40.001 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-11 11:05:40.001 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-11 11:05:40.006 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-09-11 11:05:40.308 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-09-11 11:05:40.547 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-09-11 11:57:39.238 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Starting HrManageSpringBootApplication on ZWJ37B71FPB2GEN with PID 8108 (C:\Users\Administrator\Desktop\hrManage\target\classes started by Administrator in C:\Users\Administrator\Desktop\hrManage)
+2019-09-11 11:57:39.248 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - No active profile set, falling back to default profiles: default
+2019-09-11 11:57:39.295 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-11 11:57:39.295 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-11 11:57:41.494 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-09-11 11:57:41.520 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-11 11:57:41.531 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-11 11:57:41.532 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-11 11:57:41.673 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-11 11:57:41.674 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2379 ms
+2019-09-11 11:57:42.516 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-11 11:57:42.615 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-09-11 11:57:42.803 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-09-11 11:57:42.878 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-09-11 11:57:42.950 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-11 11:57:42.955 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Started HrManageSpringBootApplication in 4.438 seconds (JVM running for 5.818)
+2019-09-11 11:57:45.470 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-11 11:57:45.470 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-11 11:57:45.492 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 22 ms
+2019-09-11 11:57:45.994 [http-nio-8080-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-09-11 11:57:46.328 [http-nio-8080-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-09-11 12:13:17.138 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Starting HrManageSpringBootApplication on ZWJ37B71FPB2GEN with PID 6332 (C:\Users\Administrator\Desktop\hrManage\target\classes started by Administrator in C:\Users\Administrator\Desktop\hrManage)
+2019-09-11 12:13:17.140 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - No active profile set, falling back to default profiles: default
+2019-09-11 12:13:17.462 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-11 12:13:17.462 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-11 12:13:18.662 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-09-11 12:13:18.689 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:13:18.690 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-11 12:13:18.690 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-11 12:13:18.770 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-11 12:13:18.771 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1308 ms
+2019-09-11 12:13:19.166 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-11 12:13:19.222 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-09-11 12:13:19.350 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-09-11 12:13:19.365 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:13:19.381 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-11 12:13:19.381 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Started HrManageSpringBootApplication in 2.704 seconds (JVM running for 3.297)
+2019-09-11 12:13:25.329 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-11 12:13:25.329 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-11 12:13:25.336 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-09-11 12:13:25.636 [http-nio-8080-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-09-11 12:13:25.843 [http-nio-8080-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-09-11 12:13:56.659 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Starting HrManageSpringBootApplication on ZWJ37B71FPB2GEN with PID 6260 (C:\Users\Administrator\Desktop\hrManage\target\classes started by Administrator in C:\Users\Administrator\Desktop\hrManage)
+2019-09-11 12:13:56.663 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - No active profile set, falling back to default profiles: default
+2019-09-11 12:13:56.735 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-11 12:13:56.735 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-11 12:13:57.757 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-09-11 12:13:57.769 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:13:57.776 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-11 12:13:57.777 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-11 12:13:57.850 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-11 12:13:57.850 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1115 ms
+2019-09-11 12:13:58.246 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-11 12:13:58.303 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-09-11 12:13:58.438 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-09-11 12:13:58.461 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:13:58.477 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-11 12:13:58.480 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Started HrManageSpringBootApplication in 2.602 seconds (JVM running for 3.235)
+2019-09-11 12:14:01.199 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-11 12:14:01.199 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-11 12:14:01.204 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2019-09-11 12:14:01.504 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-09-11 12:14:01.713 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-09-11 12:14:45.516 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Starting HrManageSpringBootApplication on ZWJ37B71FPB2GEN with PID 5440 (C:\Users\Administrator\Desktop\hrManage\target\classes started by Administrator in C:\Users\Administrator\Desktop\hrManage)
+2019-09-11 12:14:45.519 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - No active profile set, falling back to default profiles: default
+2019-09-11 12:14:45.654 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-11 12:14:45.654 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-11 12:14:46.845 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-09-11 12:14:46.857 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:14:46.864 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-11 12:14:46.864 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-11 12:14:46.948 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-11 12:14:46.948 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1294 ms
+2019-09-11 12:14:47.010 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-09-11 12:14:47.022 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-09-11 12:15:03.926 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Starting HrManageSpringBootApplication on ZWJ37B71FPB2GEN with PID 6704 (C:\Users\Administrator\Desktop\hrManage\target\classes started by Administrator in C:\Users\Administrator\Desktop\hrManage)
+2019-09-11 12:15:03.929 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - No active profile set, falling back to default profiles: default
+2019-09-11 12:15:03.986 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-11 12:15:03.986 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-11 12:15:05.145 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-09-11 12:15:05.158 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:15:05.166 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-11 12:15:05.166 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-11 12:15:05.240 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-11 12:15:05.241 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1254 ms
+2019-09-11 12:15:05.640 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-11 12:15:05.672 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-09-11 12:15:05.818 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-09-11 12:15:05.834 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:15:05.849 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-11 12:15:05.849 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Started HrManageSpringBootApplication in 2.554 seconds (JVM running for 3.096)
+2019-09-11 12:15:49.449 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Starting HrManageSpringBootApplication on ZWJ37B71FPB2GEN with PID 3916 (C:\Users\Administrator\Desktop\hrManage\target\classes started by Administrator in C:\Users\Administrator\Desktop\hrManage)
+2019-09-11 12:15:49.451 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - No active profile set, falling back to default profiles: default
+2019-09-11 12:15:49.520 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-11 12:15:49.520 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-11 12:15:50.781 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-09-11 12:15:50.792 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:15:50.799 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-11 12:15:50.799 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-11 12:15:50.874 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-11 12:15:50.875 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1354 ms
+2019-09-11 12:15:51.347 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-11 12:15:51.395 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-09-11 12:15:51.584 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-09-11 12:15:51.634 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:15:51.654 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-11 12:15:51.656 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Started HrManageSpringBootApplication in 2.669 seconds (JVM running for 3.205)
+2019-09-11 12:16:31.111 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Starting HrManageSpringBootApplication on ZWJ37B71FPB2GEN with PID 7504 (C:\Users\Administrator\Desktop\hrManage\target\classes started by Administrator in C:\Users\Administrator\Desktop\hrManage)
+2019-09-11 12:16:31.113 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - No active profile set, falling back to default profiles: default
+2019-09-11 12:16:31.152 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-11 12:16:31.153 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-11 12:16:32.143 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-09-11 12:16:32.154 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:16:32.160 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-11 12:16:32.160 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-11 12:16:32.236 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-11 12:16:32.236 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1083 ms
+2019-09-11 12:16:32.617 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-11 12:16:32.650 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-09-11 12:16:32.796 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-09-11 12:16:32.818 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:16:32.837 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-11 12:16:32.839 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Started HrManageSpringBootApplication in 2.452 seconds (JVM running for 3.045)
+2019-09-11 12:16:37.366 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-11 12:16:37.367 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-11 12:16:37.372 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-09-11 12:16:37.670 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-09-11 12:16:37.882 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-09-11 12:17:00.648 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Starting HrManageSpringBootApplication on ZWJ37B71FPB2GEN with PID 5180 (C:\Users\Administrator\Desktop\hrManage\target\classes started by Administrator in C:\Users\Administrator\Desktop\hrManage)
+2019-09-11 12:17:00.655 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - No active profile set, falling back to default profiles: default
+2019-09-11 12:17:00.706 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-11 12:17:00.706 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-11 12:17:01.744 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-09-11 12:17:01.755 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:17:01.762 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-11 12:17:01.762 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-11 12:17:01.837 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-11 12:17:01.837 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1131 ms
+2019-09-11 12:17:02.250 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-11 12:17:02.322 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-09-11 12:17:02.462 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-09-11 12:17:02.486 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:17:02.503 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-11 12:17:02.506 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Started HrManageSpringBootApplication in 2.522 seconds (JVM running for 3.072)
+2019-09-11 12:17:04.107 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-11 12:17:04.107 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-11 12:17:04.112 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2019-09-11 12:17:04.426 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-09-11 12:17:04.629 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-09-11 12:17:47.994 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Starting HrManageSpringBootApplication on ZWJ37B71FPB2GEN with PID 6352 (C:\Users\Administrator\Desktop\hrManage\target\classes started by Administrator in C:\Users\Administrator\Desktop\hrManage)
+2019-09-11 12:17:47.997 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - No active profile set, falling back to default profiles: default
+2019-09-11 12:17:48.036 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-11 12:17:48.037 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-11 12:17:49.178 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-09-11 12:17:49.183 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:17:49.183 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-11 12:17:49.183 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-11 12:17:49.271 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-11 12:17:49.271 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1234 ms
+2019-09-11 12:17:49.665 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-11 12:17:49.698 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-09-11 12:17:49.845 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-09-11 12:17:49.866 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:17:49.884 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-11 12:17:49.887 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Started HrManageSpringBootApplication in 2.693 seconds (JVM running for 3.209)
+2019-09-11 12:18:11.706 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-11 12:18:11.707 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-11 12:18:11.712 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-09-11 12:18:11.994 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-09-11 12:18:12.203 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-09-11 12:20:55.430 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Starting HrManageSpringBootApplication on ZWJ37B71FPB2GEN with PID 5488 (C:\Users\Administrator\Desktop\hrManage\target\classes started by Administrator in C:\Users\Administrator\Desktop\hrManage)
+2019-09-11 12:20:55.536 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - No active profile set, falling back to default profiles: default
+2019-09-11 12:20:55.596 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-11 12:20:55.596 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-11 12:20:56.659 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-09-11 12:20:56.672 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:20:56.679 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-11 12:20:56.680 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-11 12:20:56.748 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-11 12:20:56.748 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1151 ms
+2019-09-11 12:20:57.153 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-11 12:20:57.199 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-09-11 12:20:57.331 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-09-11 12:20:57.364 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:20:57.382 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-11 12:20:57.385 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Started HrManageSpringBootApplication in 2.556 seconds (JVM running for 3.137)
+2019-09-11 12:21:05.476 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-11 12:21:05.476 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-11 12:21:05.481 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-09-11 12:21:05.763 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-09-11 12:21:05.971 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-09-11 12:26:39.141 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Starting HrManageSpringBootApplication on ZWJ37B71FPB2GEN with PID 7376 (C:\Users\Administrator\Desktop\hrManage\target\classes started by Administrator in C:\Users\Administrator\Desktop\hrManage)
+2019-09-11 12:26:39.161 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - No active profile set, falling back to default profiles: default
+2019-09-11 12:26:39.306 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-11 12:26:39.306 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-11 12:26:40.389 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-09-11 12:26:40.399 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:26:40.408 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-11 12:26:40.409 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-11 12:26:40.534 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-11 12:26:40.534 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1228 ms
+2019-09-11 12:26:40.939 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-11 12:26:40.986 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-09-11 12:26:41.128 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-09-11 12:26:41.151 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:26:41.169 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-11 12:26:41.171 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Started HrManageSpringBootApplication in 2.524 seconds (JVM running for 3.099)
+2019-09-11 12:26:50.959 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-11 12:26:50.960 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-11 12:26:50.967 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-09-11 12:26:51.032 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-09-11 12:26:51.177 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-09-11 12:33:00.767 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Starting HrManageSpringBootApplication on ZWJ37B71FPB2GEN with PID 7652 (C:\Users\Administrator\Desktop\hrManage\target\classes started by Administrator in C:\Users\Administrator\Desktop\hrManage)
+2019-09-11 12:33:00.767 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - No active profile set, falling back to default profiles: default
+2019-09-11 12:33:00.928 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-11 12:33:00.928 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-11 12:33:02.109 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-09-11 12:33:02.120 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:33:02.126 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-11 12:33:02.127 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-11 12:33:02.203 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-11 12:33:02.204 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1275 ms
+2019-09-11 12:33:02.600 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-11 12:33:02.646 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-09-11 12:33:02.778 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-09-11 12:33:02.799 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:33:02.800 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-11 12:33:02.815 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Started HrManageSpringBootApplication in 2.552 seconds (JVM running for 3.145)
+2019-09-11 12:33:06.793 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-11 12:33:06.794 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-11 12:33:06.799 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-09-11 12:33:07.120 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-09-11 12:33:07.304 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-09-11 12:34:10.354 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Starting HrManageSpringBootApplication on ZWJ37B71FPB2GEN with PID 6220 (C:\Users\Administrator\Desktop\hrManage\target\classes started by Administrator in C:\Users\Administrator\Desktop\hrManage)
+2019-09-11 12:34:10.356 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - No active profile set, falling back to default profiles: default
+2019-09-11 12:34:10.388 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-11 12:34:10.388 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-11 12:34:11.614 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-09-11 12:34:11.626 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:34:11.632 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-11 12:34:11.633 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-11 12:34:11.709 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-11 12:34:11.709 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1321 ms
+2019-09-11 12:34:12.099 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-11 12:34:12.153 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-09-11 12:34:12.294 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-09-11 12:34:12.318 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:34:12.333 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-11 12:34:12.333 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Started HrManageSpringBootApplication in 2.429 seconds (JVM running for 2.957)
+2019-09-11 12:34:17.954 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-11 12:34:17.954 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-11 12:34:17.961 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-09-11 12:34:18.268 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-09-11 12:34:18.463 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-09-11 12:35:24.111 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Starting HrManageSpringBootApplication on ZWJ37B71FPB2GEN with PID 7096 (C:\Users\Administrator\Desktop\hrManage\target\classes started by Administrator in C:\Users\Administrator\Desktop\hrManage)
+2019-09-11 12:35:24.114 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - No active profile set, falling back to default profiles: default
+2019-09-11 12:35:24.157 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-11 12:35:24.157 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-11 12:35:25.265 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-09-11 12:35:25.276 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:35:25.283 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-11 12:35:25.283 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-11 12:35:25.348 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-11 12:35:25.348 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1191 ms
+2019-09-11 12:35:25.747 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-11 12:35:25.801 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-09-11 12:35:25.962 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-09-11 12:35:25.987 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:35:26.006 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-11 12:35:26.008 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Started HrManageSpringBootApplication in 2.455 seconds (JVM running for 3.023)
+2019-09-11 12:35:27.092 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-11 12:35:27.093 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-11 12:35:27.101 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-09-11 12:35:27.406 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-09-11 12:35:27.630 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-09-11 12:36:34.162 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Starting HrManageSpringBootApplication on ZWJ37B71FPB2GEN with PID 4344 (C:\Users\Administrator\Desktop\hrManage\target\classes started by Administrator in C:\Users\Administrator\Desktop\hrManage)
+2019-09-11 12:36:34.164 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - No active profile set, falling back to default profiles: default
+2019-09-11 12:36:34.425 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-11 12:36:34.426 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-11 12:36:35.333 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-09-11 12:36:35.343 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:36:35.350 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-11 12:36:35.350 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-11 12:36:35.426 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-11 12:36:35.426 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1000 ms
+2019-09-11 12:36:35.861 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-11 12:36:35.908 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-09-11 12:36:36.058 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-09-11 12:36:36.081 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:36:36.098 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-11 12:36:36.102 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Started HrManageSpringBootApplication in 2.491 seconds (JVM running for 3.06)
+2019-09-11 12:36:36.680 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-11 12:36:36.681 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-11 12:36:36.686 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-09-11 12:36:37.063 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-09-11 12:36:37.289 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-09-11 12:40:00.658 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Starting HrManageSpringBootApplication on ZWJ37B71FPB2GEN with PID 6920 (C:\Users\Administrator\Desktop\hrManage\target\classes started by Administrator in C:\Users\Administrator\Desktop\hrManage)
+2019-09-11 12:40:00.660 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - No active profile set, falling back to default profiles: default
+2019-09-11 12:40:00.868 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-11 12:40:00.869 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-11 12:40:02.198 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-09-11 12:40:02.220 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:40:02.227 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-11 12:40:02.228 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-11 12:40:02.299 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-11 12:40:02.299 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1430 ms
+2019-09-11 12:40:02.704 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-11 12:40:02.752 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-09-11 12:40:02.883 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-09-11 12:40:02.904 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:40:02.925 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-11 12:40:02.927 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Started HrManageSpringBootApplication in 2.728 seconds (JVM running for 3.309)
+2019-09-11 12:40:04.616 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-11 12:40:04.616 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-11 12:40:04.622 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-09-11 12:40:04.918 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-09-11 12:40:05.137 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-09-11 12:41:22.998 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Starting HrManageSpringBootApplication on ZWJ37B71FPB2GEN with PID 6640 (C:\Users\Administrator\Desktop\hrManage\target\classes started by Administrator in C:\Users\Administrator\Desktop\hrManage)
+2019-09-11 12:41:23.062 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - No active profile set, falling back to default profiles: default
+2019-09-11 12:41:23.113 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-11 12:41:23.113 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-11 12:41:24.085 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-09-11 12:41:24.097 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:41:24.105 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-11 12:41:24.105 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-11 12:41:24.185 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-11 12:41:24.186 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1073 ms
+2019-09-11 12:41:24.595 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-11 12:41:24.649 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-09-11 12:41:24.781 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-09-11 12:41:24.804 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:41:24.822 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-11 12:41:24.824 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Started HrManageSpringBootApplication in 2.382 seconds (JVM running for 2.985)
+2019-09-11 12:41:26.692 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-11 12:41:26.692 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-11 12:41:26.697 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2019-09-11 12:41:26.979 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-09-11 12:41:27.188 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-09-11 12:41:56.911 [Thread-10] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-11 12:41:56.911 [Thread-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2019-09-11 12:41:56.920 [Thread-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2019-09-11 12:41:57.208 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Starting HrManageSpringBootApplication on ZWJ37B71FPB2GEN with PID 6640 (C:\Users\Administrator\Desktop\hrManage\target\classes started by Administrator in C:\Users\Administrator\Desktop\hrManage)
+2019-09-11 12:41:57.209 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - No active profile set, falling back to default profiles: default
+2019-09-11 12:41:57.569 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-09-11 12:41:57.570 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:41:57.570 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-11 12:41:57.570 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-11 12:41:57.591 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-11 12:41:57.592 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 381 ms
+2019-09-11 12:41:57.709 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-11 12:41:57.725 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-09-11 12:41:57.787 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-09-11 12:41:57.802 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:41:57.805 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-11 12:41:57.806 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Started HrManageSpringBootApplication in 0.64 seconds (JVM running for 35.965)
+2019-09-11 12:41:57.808 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-09-11 12:41:57.844 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-11 12:41:57.845 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-11 12:41:57.854 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2019-09-11 12:41:57.927 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2019-09-11 12:41:57.931 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2019-09-11 12:43:08.595 [Thread-18] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-11 12:43:08.596 [Thread-18] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2019-09-11 12:43:08.625 [Thread-18] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2019-09-11 12:43:08.916 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Starting HrManageSpringBootApplication on ZWJ37B71FPB2GEN with PID 6640 (C:\Users\Administrator\Desktop\hrManage\target\classes started by Administrator in C:\Users\Administrator\Desktop\hrManage)
+2019-09-11 12:43:08.917 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - No active profile set, falling back to default profiles: default
+2019-09-11 12:43:09.294 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-09-11 12:43:09.295 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:43:09.295 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-11 12:43:09.295 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-11 12:43:09.314 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-11 12:43:09.315 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 396 ms
+2019-09-11 12:43:09.430 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-11 12:43:09.445 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-09-11 12:43:09.519 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-09-11 12:43:09.534 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:43:09.540 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-11 12:43:09.540 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Started HrManageSpringBootApplication in 0.703 seconds (JVM running for 107.695)
+2019-09-11 12:43:09.543 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-09-11 12:43:09.585 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-11 12:43:09.588 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-11 12:43:09.592 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2019-09-11 12:43:09.692 [http-nio-8080-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2019-09-11 12:43:09.701 [http-nio-8080-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2019-09-11 12:43:44.255 [Thread-24] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-11 12:43:44.255 [Thread-24] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2019-09-11 12:43:44.264 [Thread-24] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2019-09-11 12:43:44.540 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Starting HrManageSpringBootApplication on ZWJ37B71FPB2GEN with PID 6640 (C:\Users\Administrator\Desktop\hrManage\target\classes started by Administrator in C:\Users\Administrator\Desktop\hrManage)
+2019-09-11 12:43:44.540 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - No active profile set, falling back to default profiles: default
+2019-09-11 12:43:44.846 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-09-11 12:43:44.846 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:43:44.846 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-11 12:43:44.846 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2019-09-11 12:43:44.872 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-11 12:43:44.872 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 330 ms
+2019-09-11 12:43:44.967 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-11 12:43:44.983 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-09-11 12:43:45.056 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-09-11 12:43:45.073 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-09-11 12:43:45.077 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-11 12:43:45.078 [restartedMain] INFO  com.it.www.HrManageSpringBootApplication - Started HrManageSpringBootApplication in 0.574 seconds (JVM running for 143.23)
+2019-09-11 12:43:45.080 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-09-11 12:43:47.843 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-11 12:43:47.844 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-11 12:43:47.856 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2019-09-11 12:43:47.919 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2019-09-11 12:43:47.922 [http-nio-8080-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.

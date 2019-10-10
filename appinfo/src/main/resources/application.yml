@@ -1,0 +1,35 @@
+spring:
+  #配置数据源
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/appinfodb?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 1234
+#javaMailSender 邮件发送配置
+  mail:
+
+    host: smtp.qq.com
+    username: 1533700759@qq.com
+    password: bxwubdjdmntmgfef
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+    default-encoding: UTF-8
+mail:
+  from: ${spring.mail.username}
+  to: 939623408@qq.com
+
+mybatis:
+  #pojo包别名
+  type-aliases-package: com.example.appinfo.pojo
+  configuration:
+    #懒加载
+    lazy-loading-enabled: false
+
+
+
+

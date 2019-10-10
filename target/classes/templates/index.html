@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>会员管理</title>
+    <link th:href="@{/css/index.css}" rel="stylesheet">
+    <script type="text/javascript" th:src="@{/js/jquery-1.12.4.js}"></script>
+    <script type="text/javascript" th:src="@{/js/index.js}"></script>
+</head>
+<body onload="query()">
+<form id="form1" style="margin: auto;width: 900px">
+    <input id="currentPage" name="currentPage" type="text" hidden="hidden" th:value="1">
+    员工姓名：
+    <input name="queryName" type="text">&nbsp;&nbsp;
+   生日： <input name="minBirthday" type="date">&nbsp;&nbsp;
+    <input name="maxBirthday" type="date">&nbsp;&nbsp;
+    所属部门：
+    <select id="deptList" name="queryDeptId">
+    </select>
+    <input type="button" onclick="queryEmp()" value="查询">
+</form>
+<div style="margin: auto;width: 200px">
+    <input type="button" value="添加部门" onclick="adddetp()">
+    <input type="button" value="添加员工" onclick="addemp()">
+</div>
+<table cellpadding="3px" border="1">
+    <tr><td colspan="7"><h1>员工信息列表</h1></td></tr>
+    <tr id="tabletitle">
+        <td>员工编号</td>
+        <td>员工姓名</td>
+        <td>员工性别</td>
+        <td>员工生日</td>
+        <td>所属部门</td>
+        <td>部门人数</td>
+        <td>操作</td>
+    </tr>
+    <tbody id="context">
+
+    </tbody>
+    <tr>
+        <td id="error" colspan="6" style="color: red " hidden="hidden"></td>
+    </tr>
+</table>
+<div id="pager">
+
+</div>
+</body>
+</html>

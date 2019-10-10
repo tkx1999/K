@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.it.www.dao.EmpMapper">
+    <!-- 获取empList列表-->
+    <select id="getEmpList"  resultType="Emp">
+        SELECT e.*,d.deptname deptname FROM emp e,dept d
+        <trim prefix="where" prefixOverrides="and | or">
+         and e.deptid=d.deptno
+            <if test="queryName != null ">
+                and e.empname like CONCAT('%',#{queryName},'%')
+            </if>
+            <if test="queryDeptId != null ">
+                and e.deptid = #{queryDeptId}
+            </if>
+            <if test="minBirthday != null ">
+                and  e.empbirthday &gt;= #{minBirthday}
+                <!--and <![CDATA[e.empbirthday,'%Y-%m-%d'>= #{minBirthday,jdbcType=DATE}]]>-->
+            </if>
+            <if test="maxBirthday != null ">
+                and  e.empbirthday &lt;= #{maxBirthday}
+            </if>
+        </trim>
+        limit ${(currentPage-1)*pageSize},#{pageSize}
+    </select>
+
+
+    <!-- 获取empList列表记录数-->
+    <select id="getEmpListCount"  resultType="int">
+        SELECT count(1) FROM emp e
+        <trim prefix="where" prefixOverrides="and | or">
+            <if test="queryName != null ">
+                and e.empname like CONCAT('%',#{queryName},'%')
+            </if>
+            <if test="queryDeptId != null ">
+                and e.deptid = #{queryDeptId}
+            </if>
+            <if test="minBirthday != null ">
+                and  e.empbirthday >= #{minBirthday}
+            </if>
+            <if test="maxBirthday != null">
+                and  e.empbirthday &lt;= #{maxBirthday}
+            </if>
+        </trim>
+    </select>
+
+    <!-- 获取员工信息-->
+    <select id="getEmp" resultType="Emp">
+        SELECT e.*,d.deptname deptname FROM emp e,dept d
+        <trim prefix="where" prefixOverrides="and | or">
+            and e.deptid=d.deptno
+            <if test="empno != null and empno!='' ">
+                and e.empno=#{empno}
+            </if>
+        </trim>
+    </select>
+
+    <!--查看员工名称-->
+    <select id="checkEmpName" resultType="int">
+        select count(1) from emp e
+        <trim prefix="where" prefixOverrides="and | or">
+            <if test="empname != null and empname!='' ">
+                and e.empname =#{empname}
+            </if>
+        </trim>
+    </select>
+
+    <!--新增员工-->
+    <insert id="addEmp" parameterType="Emp">
+insert into emp(empname,empsex,empbirthday,deptid) values(#{empname},#{empsex},#{empbirthday},#{deptid})
+    </insert>
+
+    <!--修改员工-->
+    <update id="updateEmp" parameterType="Emp">
+update emp set empsex=#{empsex},empbirthday=#{empbirthday},deptid=#{deptid} where empno=#{empno}
+    </update>
+</mapper>

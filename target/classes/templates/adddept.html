@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link th:href="@{/css/add.css}" rel="stylesheet">
+    <script th:src="@{/js/jquery-1.12.4.js}" type="text/javascript" charset="utf-8"></script>
+    <script th:src="@{/js/adddept.js}" type="text/javascript" charset="utf-8"></script>
+    <title>商品信息</title>
+</head>
+<body>
+<table cellpadding="3px" border="1" width="600px">
+    <tr><td colspan="2" height="50px" style="font-size: 30px;font-weight: 700;background-color: rgb(137,208,254) ">增加部门</td></tr>
+    <tr>
+        <td width="150px">部门名称（*）：</td>
+        <td style="text-align: left"><input type="text" id="deptname" value=""></td>
+    </tr>
+    <tr >
+        <td width="150px">部门描述：</td>
+        <td style="text-align: left"><input type="text" id="deptdesc" value=""></td>
+    </tr>
+    <tr>
+        <td colspan="2" ><input type="button" value="提交"  onclick="checkdept()"/>
+        <input type="button" value="返回"  onclick="show()"/>&nbsp;</td>
+    </tr>
+</table>
+</body>
+</html>
